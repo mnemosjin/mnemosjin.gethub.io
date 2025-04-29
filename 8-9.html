@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인라인과 블록 방식으로 디스플레이하기</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        #menu{
+            width: 500px;
+            padding: 10px;
+            margin: 20px 0 0 40px;
+            background-color: #eeeeee;
+            border-color: #aaaaaa;
+            text-align: center;
+        }
+        #menu li{
+            display: inline;
+        }
+
+        a{
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <ul id="menu">
+        <li>회사소개 |</li>
+        <li>제품 소개 |</li>
+        <li>공지사항 |</li>
+        <li>업무제휴 |</li>
+        <li>고객센터</li>
+    </ul>
+    <br><br>
+
+    <h3>1. 인라인 요소</h3>
+    <span>text1</span>
+    <span>text2</span>
+    <span>text3</span>
+    <img src="1.jpg" width="100">
+    <img src="2.png">
+
+    <br>
+    <h3>2. 블럭 요소</h3>
+    <p>이것은 단락입니다.</p>
+    <div>박스</div>
+    <div>박스2</div>
+    <br><br>
+    <p>수직 방향 메뉴</p>
+    <a href="https://www.naver.com/" target="_blank">네이버</a>
+    <a href="https://www.daum.net/" target="_blank">다음</a>
+    <a href="https://www.google.co.kr/" target="_blank">구글</a>
+
+    <a href="index.html">홈으로</a>
+</body>
+</html>
